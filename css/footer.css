@@ -1,0 +1,48 @@
+footer {
+    background-color: rgba(233, 233, 233, 0.493);
+    text-align: center;
+    padding: 2rem;
+}
+
+footer h2 {
+    padding: 2rem 0;
+}
+
+
+footer #contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+footer #contact .address h3 {
+    padding: 1rem 0;
+}
+
+footer #contact .address{
+    line-height: 2rem;
+    padding-left: 2rem;
+}
+
+
+@media (max-width: 800px) {
+
+
+    .topic-header {
+        font-size: 2.5rem;
+    }
+
+
+    footer #contact {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    iframe {
+        width: 250px;
+    }
+}
